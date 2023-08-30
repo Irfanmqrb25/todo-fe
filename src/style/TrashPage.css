@@ -1,0 +1,39 @@
+.containerTrashPage {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.titleTrash {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.titleTrash h1 {
+    font-family: Raleway, sans-serif;
+    color: #263462;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.cardTodo h5 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.font-p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(128, 128, 128, 0.619);
+}
+
+.h5,
+.p {
+    text-decoration: line-through;
+}

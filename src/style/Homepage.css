@@ -1,0 +1,5 @@
+.containerHome {
+    width: 100%;
+    display: flex;
+    background-color: rgba(119, 136, 153, 0.795);
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.todoInput {
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    height: 100vh;
+}
+
+.titleTodo {
+    width: 90%;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.titleTodo h1 {
+    font-family: Raleway, sans-serif;
+    color: #263462;
+    letter-spacing: 5px;
+}
+
+.formContainer {
+    margin: 40px auto;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    font-family: Raleway, sans-serif;
+}
+
+.inputTitle {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input[type="date"] {
+    background-color: #263462;
+    padding: 8px;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #263462f1;
+    color: white;
+}
+
+button:hover {
+    background-color: #263462;
+}
+
+.hrInInputTodo {
+    width: 90%;
+    margin: 10px auto;
+}
