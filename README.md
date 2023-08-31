@@ -1,4 +1,4 @@
-# Todo App
+# Todo App (FE)
 
 Welcome to the repository of my Web Todo Application built using React.js! This application is designed to help you organize your daily tasks in an efficient and intuitive manner.
 
